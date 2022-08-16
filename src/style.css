@@ -1,11 +1,14 @@
+.weather-app-wrapper {
+  max-width: 800px;
+  margin-top: 35px;
+  margin: 0 auto;
+}
 .weather-app {
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
   padding: 40px;
-  max-width: 800px;
-  margin-top: 35px;
 }
 
 .city {
@@ -21,8 +24,9 @@
   font-weight: 400;
   margin-left: 10px;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 1;
+  margin: 0;
 }
 .unit {
   color: #212121;
@@ -31,15 +35,17 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -25px;
+  left: -15px;
 }
 
-.temperature-container {
+.current-weather {
   text-align: right;
 }
-.picture {
-  size: 80px;
-  vertical-align: top;
+
+.current-weather img {
+  margin-right: 10px;
+  margin-top: -40px;
 }
 li {
   list-style: none;
