@@ -23,6 +23,7 @@
   color: #212121;
   font-weight: 400;
   margin-left: 10px;
+  padding-right: 10px;
   font-weight: 700;
   font-size: 70px;
   line-height: 1;
@@ -35,7 +36,7 @@
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -25px;
+  top: -30px;
   left: -15px;
 }
 
